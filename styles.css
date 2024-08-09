@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #008080;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #008080;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background: #fff;
+}
+
+h2 {
+    color: #008080;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #008080;
+    color: #fff;
+}
+
+.image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Space between images */
+            padding: 20px;
+}
+
+.image-container img {
+            width: 150px; /* Set the width of the images */
+            height: auto; /* Maintain the aspect ratio */
+            border-radius: 8px; /* Optional: add rounded corners */
+}
+
+        .organizers-container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .organizer {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .organizer img {
+            width: 150px; /* Adjust size as needed */
+            height: 150px;
+            border-radius: 50%; /* Make the image circular */
+            margin-right: 20px; /* Space between image and text */
+        }
+
+        .organizer .bio {
+            max-width: 800px; /* Limit text width */
+        }
+
+        .organizer .bio h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .organizer .bio p {
+            margin: 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
